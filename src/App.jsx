@@ -10,7 +10,7 @@ function App() {
       e.preventDefault()
       const amine = e.target.animeName.value
 
-      const url = `https://api.jikan.moe/v4/anime?q=${amine}&limit=10`
+      const url = `https://api.jikan.moe/v4/anime?q=${amine}`
 
       axios.get(url)
             .then(({data}) => setAnimes(data.data))
