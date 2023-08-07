@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply bg-orange-500 p-4  text-yellow-300 my-7 block mx-auto rounded-full
+    
+}
